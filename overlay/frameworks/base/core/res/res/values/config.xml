@@ -646,4 +646,7 @@
     <!-- Whether the display blanks itself when transitioning from a Doze to a non Doze state -->
     <bool name="config_displayBlanksAfterDoze">true</bool>
 
+
+    <!-- Whether to cleanup fingerprints upon connection to the daemon and when user switches -->
+    <bool name="config_cleanupUnusedFingerprints">false</bool>
 </resources>
