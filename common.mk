@@ -271,7 +271,7 @@ PRODUCT_PACKAGES += \
     org.ifaa.android.manager
 
 PRODUCT_BOOT_JARS += \
-    org.ifaa.android.manager
+    org.ifaa.android.manager \
 
 # IPv6
 PRODUCT_PACKAGES += \
@@ -407,7 +407,11 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     ims-ext-common_system \
-    telephony-ext
+    telephony-ext \
+		qti-telephony-hidl-wrapper \
+		qti_telephony_hidl_wrapper.xml \
+		qti-telephony-utils \
+		qti_telephony_utils.xml \
 
 PRODUCT_BOOT_JARS += \
     ims-ext-common_system \
